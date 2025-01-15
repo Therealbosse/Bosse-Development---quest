@@ -6,13 +6,13 @@ description 'Bosse Development - Leverans'
 version '1.0.0'
 
 client_scripts {
-    'config.lua',
-    'client.lua'
+    'shared/config.lua',
+    'client/client.lua'
 }
 
 server_scripts {
-    'config.lua',
-    'server.lua'
+    'shared/config.lua',
+    'server/server.lua'
 }
 
 dependencies {
